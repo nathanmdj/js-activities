@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.form-container {
+    background-color: rgb(10, 12, 9);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+input, button {
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+#result {
+    color: white;
+    margin-top: 20px;
+    
+}
